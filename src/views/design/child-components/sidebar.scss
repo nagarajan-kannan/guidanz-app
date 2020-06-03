@@ -1,0 +1,39 @@
+@import '../../../../public/assets/styles/variables';
+
+.sidebar {
+    position: fixed;
+    width: 360px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: $sidebar-bg-color;
+    padding: 20px;
+
+    .elements {
+
+        h5 {
+            color: $white-color;
+            margin: 0px;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .draggables {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .draggable-item {
+                width: 80px;
+                height: 80px;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+        }
+    }
+}

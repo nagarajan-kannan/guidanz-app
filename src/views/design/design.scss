@@ -1,0 +1,10 @@
+@import '../../../public/assets/styles/variables';
+
+.wrapper {
+    position: relative;
+    padding-left: 360px;
+}
+
+#draggingPlaceholder {
+    display: none;
+}

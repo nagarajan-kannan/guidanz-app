@@ -1,0 +1,19 @@
+@import '../public/assets/styles/variables';
+
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main {
+  background: $grey-bg-color;
+}
